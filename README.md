@@ -33,7 +33,7 @@ The following bioinformatics tools are integrated into the pipeline:
 ## Clone the repository.
 
 ```bash
-git clone [https://github.com/clousgospel/wgs-snakemake-pipeline.git](https://github.com/clousgospel/wgs-snakemake-pipeline.git)
+git clone https://github.com/clousgospel/wgs-snakemake-pipeline.git
 cd wgs-snakemake-pipeline
 ```
 
