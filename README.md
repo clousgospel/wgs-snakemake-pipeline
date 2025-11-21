@@ -30,6 +30,33 @@ The following bioinformatics tools are integrated into the pipeline:
 * **GATK4 (Genome Analysis Toolkit):** Variant discovery and genotyping.
 * **BCFtools:** VCF manipulation and filtering.
 
+## Clone the repository.
+
+git clone [https://github.com/clousgospel/wgs-snakemake-pipeline.git](https://github.com/clousgospel/wgs-snakemake-pipeline.git)
+cd wgs-snakemake-pipeline
+
+## Dependencies and Installation
+
+conda install -c bioconda -c conda-forge bwa samtools gatk4 fastqc multiqc bcftools snakemake ensembl-vep -y
+
+## Data Requirements
+
+Before analysis, ensure the following files are in the correct folders:
+	data/sample1_R1.fastq.gz and data/sample1_R2.fastq.gz (Raw data)
+	ref/Homo_sapiens.GRCh38.dna.primary_assembly.fa (Reference genome)
+	
+## Usage
+
+snakemake --cores 4
+
+## Outputs
+
+Final Result:
+	results/sample1/final.vcf.gz (Filtered Variants)
+	
+QC Report:
+	qc/multiqc/multiqc_report.html
+
 ## Dataset & Acknowledgements
 
 This project was developed and validated using open-source test data provided by the **Hartwig Medical Foundation**.
