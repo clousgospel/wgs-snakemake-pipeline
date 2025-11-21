@@ -35,11 +35,13 @@ The following bioinformatics tools are integrated into the pipeline:
 ```bash
 git clone [https://github.com/clousgospel/wgs-snakemake-pipeline.git](https://github.com/clousgospel/wgs-snakemake-pipeline.git)
 cd wgs-snakemake-pipeline
+```
 
 ## Dependencies and Installation
 
 ```bash
 conda install -c bioconda -c conda-forge bwa samtools gatk4 fastqc multiqc bcftools snakemake ensembl-vep -y
+```
 
 ## Data Requirements
 
@@ -51,6 +53,7 @@ Before analysis, ensure the following files are in the correct folders:
 
 ```bash
 snakemake --cores 4
+```
 
 ## Outputs
 
