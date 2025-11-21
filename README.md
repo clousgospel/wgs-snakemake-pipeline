@@ -27,7 +27,6 @@ The following bioinformatics tools are integrated into the pipeline:
 * **Samtools:** BAM file manipulation.
 * **GATK4 (Genome Analysis Toolkit):** Variant discovery and genotyping.
 * **BCFtools:** VCF manipulation and filtering.
-* **SnpEff / VEP:** (Optional) Variant annotation.
 
 ## Dataset & Acknowledgements
 
