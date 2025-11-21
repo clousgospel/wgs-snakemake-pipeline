@@ -46,8 +46,8 @@ conda install -c bioconda -c conda-forge bwa samtools gatk4 fastqc multiqc bcfto
 ## Data Requirements
 
 Before analysis, ensure the following files are in the correct folders:
-	data/sample1_R1.fastq.gz and data/sample1_R2.fastq.gz (Raw data)
-	ref/Homo_sapiens.GRCh38.dna.primary_assembly.fa (Reference genome)
+* **data/sample1_R1.fastq.gz and data/sample1_R2.fastq.gz (Raw data)
+* **ref/Homo_sapiens.GRCh38.dna.primary_assembly.fa (Reference genome)
 	
 ## Usage
 
