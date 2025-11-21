@@ -6,6 +6,8 @@
 
 An automated **Whole Genome Sequencing (WGS)** variant calling pipeline built using **Snakemake**. This workflow processes raw sequencing data (FASTQ) through alignment, processing, and variant calling to produce high-quality variant files (VCF).
 
+![Pipeline Flow Chart](dag_pipeline.png)
+
 ## Overview
 
 This pipeline implements a standard GATK Best Practices workflow for germline variant calling. It handles:
