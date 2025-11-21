@@ -1,0 +1,4 @@
+Module	Section	Sample Name	Source
+Picard	DuplicationMetrics	rg_added	/home/gospel/gene/qc/metrics/sample1_mark_dup_metrics.txt
+FastQC	all_sections	sample1_R1	/home/gospel/gene/qc/fastqc/sample1_R1_fastqc.zip
+FastQC	all_sections	sample1_R2	/home/gospel/gene/qc/fastqc/sample1_R2_fastqc.zip

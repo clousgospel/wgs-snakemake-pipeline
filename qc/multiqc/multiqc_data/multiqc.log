@@ -1,0 +1,5 @@
+[2025-11-20 21:59:33,531] multiqc.core.version_check                         [WARNING]  MultiQC Version v1.32 now available!
+[2025-11-20 21:59:33,533] multiqc.core.file_search                           [INFO   ]  Search path: /home/gospel/gene/qc/fastqc
+[2025-11-20 21:59:33,533] multiqc.core.file_search                           [INFO   ]  Search path: /home/gospel/gene/qc/metrics
+[2025-11-20 21:59:33,728] multiqc.modules.picard.picard                      [INFO   ]  Found 1 MarkDuplicates reports
+[2025-11-20 21:59:33,734] multiqc.modules.fastqc.fastqc                      [INFO   ]  Found 2 reports

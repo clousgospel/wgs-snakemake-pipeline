@@ -1,0 +1,4 @@
+Sample	picard_mark_duplicates-PERCENT_DUPLICATION	fastqc-percent_duplicates	fastqc-percent_gc	fastqc-avg_sequence_length	fastqc-median_sequence_length	fastqc-percent_fails	fastqc-total_sequences
+rg_added	16.128999999999998						
+sample1_R1		16.129032258064512	54.0	151.0	151	36.36363636363637	3.1e-05
+sample1_R2		16.129032258064512	56.0	151.0	151	36.36363636363637	3.1e-05

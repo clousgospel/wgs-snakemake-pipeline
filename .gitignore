@@ -1,0 +1,30 @@
+# dataset
+data/*.fastq.gz
+data/*.fq.gz
+ref/*.fa
+ref/*.fasta
+ref/*.dict
+ref/*.fai
+
+# index
+*.amb
+*.ann
+*.bwt
+*.pac
+*.sa
+*.bai
+
+# results
+results/**/*.bam
+results/**/*.bai
+results/**/*.cram
+
+# snakemake
+.snakemake/
+
+# pycache
+__pycache__/
+*.pyc
+
+# environments(conda)
+envs/*_env/

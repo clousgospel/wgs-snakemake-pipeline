@@ -1,0 +1,2 @@
+Sample	Unique Pairs	Duplicate Pairs Optical	Duplicate Pairs Nonoptical
+rg_added	52.0	4.0	6.0
